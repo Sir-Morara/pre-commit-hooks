@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "pre-commit-hooks"
+version = "0.1.0"
+description = "Custom pre-commit hooks for my projects"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+flake8-bugbear = "*"
+flake8-docstrings = "*"
+# Add other dependencies as necessary
