@@ -6,7 +6,7 @@ repos:
       - id: black
         language_version: python3
 
-  - repo: https://github.com/yourusername/pre-commit-hooks
+  - repo: https://github.com/Sir-Morara/pre-commit-hooks
     rev: main  # Use a specific tag or branch as needed
     hooks:
       - id: flake8
